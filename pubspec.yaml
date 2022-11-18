@@ -15,7 +15,8 @@ dependencies:
   flutter_riverpod: ^2.0.0
   hive: ^2.0.4
   hive_flutter: ^1.1.0
-  freezed_annotation: ^2.1.0
+  settings_ui: ^2.0.2
+  url_launcher: ^6.1.6
 
 dev_dependencies:
   flutter_test:
@@ -23,10 +24,25 @@ dev_dependencies:
 
   flutter_lints: ^2.0.0
   hive_generator: ^1.1.1
-  freezed: ^2.1.0+1
   build_runner: ^2.1.2
 
 flutter:
+  fonts:
+    - family: NotoSansJP
+      fonts:
+        - asset: assets/fonts/Noto_Sans_JP/NotoSansJP-Black.otf
+          weight: 900
+        - asset: assets/fonts/Noto_Sans_JP/NotoSansJP-Bold.otf
+          weight: 700
+        - asset: assets/fonts/Noto_Sans_JP/NotoSansJP-Light.otf
+          weight: 300
+        - asset: assets/fonts/Noto_Sans_JP/NotoSansJP-Medium.otf
+          weight: 500
+        - asset: assets/fonts/Noto_Sans_JP/NotoSansJP-Regular.otf
+          weight: 400
+        - asset: assets/fonts/Noto_Sans_JP/NotoSansJP-Thin.otf
+          weight: 100
+
   uses-material-design: true
 
   # Enable generation of localized Strings from arb files.

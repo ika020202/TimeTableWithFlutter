@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import "package:timetable_flutter/setting/setting_value.dart";
+import 'package:timetable_flutter/components/setting_value.dart';
 import "dayof_week.dart";
 import "periods_week.dart";
 import "cell.dart";

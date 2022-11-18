@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'color_button.dart';
-import 'package:timetable_flutter/setting/setting_value.dart';
+import 'package:timetable_flutter/components/setting_value.dart';
 
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 

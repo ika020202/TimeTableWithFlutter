@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:timetable_flutter/providers.dart';
-import 'package:timetable_flutter/setting/setting_value.dart';
+import 'package:timetable_flutter/components/setting_value.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 class ClassDetailsTextField extends ConsumerStatefulWidget {

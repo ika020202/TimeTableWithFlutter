@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import "package:timetable_flutter/widgets/timetable_widget.dart";
-import 'package:timetable_flutter/setting/setting_value.dart';
+import 'package:timetable_flutter/components/setting_value.dart';
 
 class TimetableScreen extends StatelessWidget {
   const TimetableScreen({super.key});
@@ -9,6 +9,20 @@ class TimetableScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        actions: <Widget>[
+          IconButton(
+            padding: const EdgeInsets.only(right: 10.0),
+            icon: const Icon(
+              Icons.settings,
+              size: 30.0,
+              color: ColorList.black,
+            ),
+            // ここに保存処理
+            onPressed: () {
+              Navigator.of(context).pushNamed("/setting");
+            },
+          ),
+        ],
         centerTitle: true,
         elevation: 0,
         automaticallyImplyLeading: false,
@@ -48,27 +62,6 @@ class TimetableScreen extends StatelessWidget {
       body: const SafeArea(
         child: TimetableWidget(),
       ),
-      /*
-      bottomNavigationBar: BottomNavigationBar(
-        items: const <BottomNavigationBarItem>[
-          BottomNavigationBarItem(
-            icon: Icon(Icons.home),
-            label: "0",
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.movie),
-            label: "1",
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.settings),
-            label: "2",
-          ),
-        ],
-        currentIndex: 0,
-        //onTap: _onItemTapped,
-      ),
-
-       */
     );
   }
 }
