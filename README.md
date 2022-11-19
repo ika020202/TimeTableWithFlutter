@@ -4,6 +4,11 @@ Flutterを使用した時間割アプリです。
 
 最低限の機能は実装しましたが、最終目的は、ユーザ自身がThemeをカスタマイズできる仕組みにする予定です。
 
+# WEBのURL
+確認して頂くために、WEBにアップロードしました。
+※レイアウトはMobile端末想定なのでWEBに調整していません。機能だけご確認ください。
+https://ika020202.github.io/TimeTableWithFlutter/#/
+
 # 使用している技術や構成
 - Riverpod
 - HiveDB
