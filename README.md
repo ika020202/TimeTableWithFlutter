@@ -7,7 +7,8 @@ Flutterを使用した時間割アプリです。
 # WEBのURL
 確認して頂くために、WEBにアップロードしました。
 ※レイアウトはMobile端末想定なのでWEBに調整していません。機能だけご確認ください。
-https://ika020202.github.io/TimeTableWithFlutter/#/
+
+[TimeTableWithFlutterのウェブ確認用](https://ika020202.github.io/TimeTableWithFlutter/#/)
 
 # 使用している技術や構成
 - Riverpod
